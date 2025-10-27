@@ -1,0 +1,71 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+
+h2 {
+  text-align: center;
+  color: violet;
+  font-size: 64px;
+  margin-bottom: 30px;
+
+}
+
+
+.pix-container {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px purple;
+  width: 350px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.pix-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px violet;
+}
+
+
+.pix-container img {
+  width: 80px;         
+  height: 80px;       
+  border-radius: 50%;  
+  object-fit: cover;   
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px violet;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+button {
+  background-color: violet;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+  box-shadow: 0 0 10px violet;
+}
