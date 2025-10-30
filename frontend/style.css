@@ -21,7 +21,7 @@ h2{
     box-shadow: 0 0 15px purple;
     width: 350px;
     transition: width 2s, height 4s, background-color 3s;
-    animation: glow 3s infinite alternate;
+    animation: glow 2s infinite alternate;
 }
 
 @keyframes glow {
